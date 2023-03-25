@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    background-color: #404146;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+nav  h3, footer h3{
+    font-size: 30px;
+    letter-spacing: 4px;
+    padding: 20px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+ul li {
+    list-style: none;
+    margin-right: 24px;
+}
+
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul li a:hover{
+    color: blue;
+}
+
+.jumbroton-wrapper{
+    text-align: center;
+    padding: 72px 0
+}
+
+.jumbroton-wrapper h1{
+    font-size: 90px;
+    letter-spacing: 8px;
+    font-weight: 800;
+    opacity: 0.9;
+}
+
+.jumbroton-wrapper span{
+    color: #f1d00e;
+}
+
+.jumbroton-wrapper h2{
+    font-weight: 200;
+    font-size: 44px;
+    color: #555555;
+}
+
+.jumbroton-wrapper img{
+    width: 200px;
+    height: 200px;
+}
+
+.about-wrapper, .contact-wrapper{
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.about-wrapper p{
+    width: 85%;
+    margin: 20px auto;
+    font-size: 14px;
+}
+
+.project-wrapper{
+    text-align: center;
+    padding: 80px 0;
+}
+
+.proyek-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.proyek{
+    width: 20%;
+    margin: 40px 0;
+}
+
+.contact-wrapper h3{
+    margin-bottom: 40px;
+}
+.contact-wrapper input:first-child, .contact-wrapper textarea, .contact-wrapper input:last-child{
+    display: block;
+    width: 50%;
+    margin: 24px auto;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px #f4f4f4;
+}
+
+.contact-wrapper input:last-child{
+    width: 30%;
+    background-color: #f1d00e;
+    opacity: 0.7;
+    font-weight: 600;
+    cursor: pointer;
+}
+.contact-wrapper input:last-child:hover{
+    opacity: 1;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #7c7d82;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+}
+footer ul{
+    padding-right: 30px;
+}
+footer ul li{
+    margin: 20px;
+}
